@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d8d8d8;
+}
+
+.level{
+    height: 19vh;
+    background-color: #d8d8d8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.level-0{
+    height: 15vh;
+}
+
+.startBtn {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    width: 8vw;
+    height: 6vh;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 6px black;
+    border-radius: 3px;
+}
+
+.startBtnM{
+    margin-top: 1vh;
+}
+
+.bottom-line {
+    height: 2.5vh;
+    width: 0.3vw;
+    background-color: white;
+}
+
+.upper-line{
+    height: 2.5vh;
+    width: 0.3vw;
+    background-color: white;
+}
+
+.opt2{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upperhori-line{
+    width: 25vw;
+    height: 0.5vh;
+    background-color: white;
+}
+
+.addBtn {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-bottom: 2vh;
+    border-radius: 95px;
+    width: 3.5vw;
+    height: 5.5vh;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+.opt1{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectOpt{
+    display: none;
+    position: absolute;
+    margin-top: 9vh;
+    background-color: red;
+    width: 4.5vw;
+    background-color: white;
+    font-family: -apple-system;
+}
+
+.opBtn{
+    width: 4vw;
+    color: black;
+    border: none;
+    font-weight: 600;
+}
+
+.opBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.delete{
+    visibility: visible;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 5vh;
+    border-radius: 100px;
+    margin-left: 6vw;
+
+}
+
+
+.delete:hover{
+   visibility: visible;
+   background: rgb(148, 0, 0);
+
+}
+
+.delete img{
+    width: 1.5vw;
+
+}
+
+.opt2block{
+    margin-top: -0.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+}
+.left{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+   
+}
+
+.leve-2Opt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh ;
+}
+
+.rightmost{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin-left: 50vw;
+}
+.leftmost{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin-right: 50vw;
+}
+
+.level-2opt4{
+    display: flex;
+
+}
+
+.level-2opt5{
+    margin-right: 25vw;
+}
+.level-2opt6{
+    margin-left: 25vw;
+}
+
+
+
+
+
+.level-2opt4{
+    display: flex;
+}
+
+
+ .test1{
+    display: flex;
+}
+
+.level-3opt2{
+    /* display: flex; */
+    margin-right: 25vw;
+
+}
+.level-3opt3{
+    /* display: flex; */
+    margin-right: 75vw;
+    margin-top: -16.4vh;
+
+
+}
+
+.level-3opt4{
+    margin-right: 25vw;
+}
+
+.level-3opt7{
+    position: absolute;
+    margin-left: 25vw;
+}
+
+.level-3opt6{
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 25vw;
+}
+
+.level-3opt3{
+    margin-top: 0vh;
+}
+
+.level-3opt7{
+    margin-right: -50vw;
+}
+
+.level-3opt8{
+    position: absolute;
+    margin-right: -25vw;
+}
+
+
+.upperlineheight{
+    height: 5vh;
+}
+
+.uplineshift{
+    margin-right: 25vw;
+}
+
+.uplineshiftR{
+    margin-left: 25vw;
+}
+.upperlinemargin{
+    margin-top: -2.3vh;
+}
+
+.upperlinemargin2{
+    margin-top: -4.4vh;
+}
